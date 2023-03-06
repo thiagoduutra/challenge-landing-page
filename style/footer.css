@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: var(--black);
+  flex-direction: column;
+  padding: 38px 0;
+  max-width: 100%;
+}
+
+.container-footer-icons {
+  display: flex;
+  list-style: none;
+  margin-bottom: 16px;
+  gap: 16px;
+}
+
+.footer-icon {
+  width: 20%;
+}
+
+.footer-text {
+  color: var(--letter-footer);
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 414px) {
+  .footer {
+    max-width: 100%;
+    padding: 32px 77px;
+  }
+
+  .footer-text {
+    width: 63%;
+  }
+}
