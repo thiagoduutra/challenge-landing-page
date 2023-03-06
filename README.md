@@ -1,6 +1,6 @@
 ## M3 Academy - Desafio 01
 
-![preview](<./src/img/desafio1.png>)
+![preview](<./src/imgs/desafio1.png>)
 
 ## 🔨 Tecnologias
 
